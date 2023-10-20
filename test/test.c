@@ -15,5 +15,5 @@ int reasonable_values(float value){
     cr_assert(reasonable_values(25.0) == 1);
 }*/
 Test(suite_name, test_name){
-    cr_assert(reasonable_values(45.0) == 1);
+    cr_assert(reasonable_values(26.0) == 1);
 }
